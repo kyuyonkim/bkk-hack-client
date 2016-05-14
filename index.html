@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ソーシャル占い</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="head">
+        <ul id="fortune">
+        </ul>
+        <div id="boxcontainer">
+            <div id="grand-ranking">
+            全体運１位
+            </div>
+            <div id="romance-ranking">
+            恋愛運１位
+            </div>
+            <div id="career-ranking">
+            仕事運１位
+            </div>
+        </div>
+    </div>
+    <div>
+        <ul id="messages"></ul>        
+    </div>
+    <div>
+        <form action="">
+            <div>
+            名前: <input id="user-name" /></div>
+        <div>
+            星座:
+        <select id="star-sign" size="1">
+            <option>選ぶ</option>
+            <option>牡羊座</option>
+            <option>牡牛座</option>
+            <option>双子座</option>
+            <option>蟹座</option>
+            <option>獅子座</option>
+            <option>乙女座</option>
+            <option>天秤座</option>
+            <option>蠍座</option>
+            <option>射手座</option>
+            <option>山羊座</option>
+            <option>水瓶座</option>
+            <option>魚座</option>
+        </select>
+              <button>占う♪</button>
+            </div>
+                </form>
+    </div>
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

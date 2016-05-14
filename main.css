@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+	background-image:url(./image/socialhoro.jpg);
+    min-height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+	font: 13px Helvetica, Arial;
+	background-color: #FFF
+}
+
+#fortune {
+    background-color: white;
+    color: #66cdaa;
+    height: 50px
+}
+
+#boxcontainer {
+    padding: 150px 0 0 100px;
+}
+
+#boxcontainer > div {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    color: #FF69A3;
+    background-color: #ffe5f2;
+}
+
+#grand-ranking {
+    background-color: #ffe5f2;
+    height: 50 px;
+    }
+
+
+form {
+	background: #FFEEFF;
+	padding: 3px 20px 5px 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: #FF69A3;
+}
+
+form input {
+	border: 0;
+	padding: 10px;
+	width: 80%;
+	margin-right: .5%;
+}
+
+form button {
+	width: 9%;
+	background: rgb(130, 224, 255);
+	border: none;
+	padding: 5px;
+	background-color: #FFABCE
+}
+
+#messages {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#messages li {
+	padding: 5px 10px;
+	border-bottom:1px dotted #FF69A3;
+	background-color:rgba(255,255,255,0.8);
+}
+
